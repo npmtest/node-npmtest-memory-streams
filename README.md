@@ -1,6 +1,6 @@
 # npmtest-memory-streams
 
-#### test coverage for  [memory-streams (v0.1.2)](https://github.com/paulja/memory-streams-js)  [![npm package](https://img.shields.io/npm/v/npmtest-memory-streams.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-memory-streams) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-memory-streams.svg)](https://travis-ci.org/npmtest/node-npmtest-memory-streams)
+#### basic test coverage for  [memory-streams (v0.1.2)](https://github.com/paulja/memory-streams-js)  [![npm package](https://img.shields.io/npm/v/npmtest-memory-streams.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-memory-streams) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-memory-streams.svg)](https://travis-ci.org/npmtest/node-npmtest-memory-streams)
 
 #### Simple implmentation of Stream.Readable and Stream.Writable holding the data in memory.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-memory-streams/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-memory-streams/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-memory-streams/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-memory-streams/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-memory-streams/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-memory-streams/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-memory-streams/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-memory-streams/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-memory-streams/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-memory-streams/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-memory-streams/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-memory-streams/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
         "test": "node ./test/test-readablestream.js && node ./test/test-writablestream.js"
     },
     "typings": "index.d.ts",
-    "version": "0.1.2"
+    "version": "0.1.2",
+    "bin": {}
 }
 ```
 
